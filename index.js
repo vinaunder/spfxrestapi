@@ -6,6 +6,7 @@
  *  - jQuery
  *  
  */
+import jQuery from "jquery";
 
 window.spfxrestapi = window.spfxrestapi || new Object();
 
@@ -922,3 +923,5 @@ window.spfxrestapi = {
         }
     }
 };
+
+module.exports.spfxrestapi = window.spfxrestapi;
